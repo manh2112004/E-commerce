@@ -1,0 +1,16 @@
+.product__pay {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.product__pay img {
+  width: 70px;
+  height: 70px;
+  border: 1px solid black;
+}
+.Row__payment{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}

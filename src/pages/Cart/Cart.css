@@ -1,0 +1,73 @@
+.Row_Cart-header {
+  margin: 20px 200px;
+  border: 1px solid #ddd;
+}
+.Row_Cart-body {
+  margin: 0 200px;
+  border: 1px solid #ddd;
+}
+.Column_Cart {
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Column_Cart-title {
+  font-weight: 400;
+}
+.Column_Cart img {
+  width: 150px;
+  height: 150px;
+  padding: 20px;
+}
+.quantity__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+.quantity__button p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  width: 40px;
+  text-align: center;
+}
+.quantity__button button {
+  margin-bottom: 8px;
+}
+.Column_Cart-delete button {
+  padding: 10px;
+  font-size: 20px;
+}
+.noProduct {
+  margin: 50px 200px;
+  font-size: 20px;
+}
+.Row_total {
+  margin: 30px 200px;
+  display: flex;
+  justify-content: flex-end;
+}
+.Row_total .Row_button {
+  padding: 15px 50px;
+  cursor: pointer;
+}
+.total_text {
+  text-align: right;
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+}
+.total_text span {
+  font-weight: normal;
+}
+.Row_button.Row_total-pay {
+  background-color: #e32124;
+}
+.Row_button.Row_total-cart{
+    background-color: #faf6f6;
+}

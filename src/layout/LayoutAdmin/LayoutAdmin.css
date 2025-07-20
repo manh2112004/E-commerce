@@ -1,0 +1,44 @@
+.content {
+  background-color: #ffff;
+}
+.header__admin {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+}
+.header__logo {
+  width: 200px;
+  margin-left: 0;
+  border-right: 1px solid #ddd;
+}
+.header__nav {
+  padding: 10px;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__nav-left {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}
+.header__collapse {
+  margin-right: 20px;
+  cursor: pointer;
+}
+.header__logo--collapsed {
+  width: 80px;
+}
+.header__nav-right {
+  display: flex;
+  gap: 20px;
+  font-size: 30px;
+  margin-right: 50px;
+}
+.header__nav-right .bell {
+  cursor: pointer;
+}
+.header__nav-right .bell:hover {
+  background-color: aqua;
+}
+
