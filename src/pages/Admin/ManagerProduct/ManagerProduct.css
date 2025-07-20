@@ -1,0 +1,27 @@
+.header__product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+}
+.header__product h2 {
+  flex: 1;
+  text-align: center;
+}
+.header__product button {
+  margin-right: 50px;
+}
+.Row__Product-header {
+  border: 1px solid black;
+  text-align: center;
+  background-color: #c5bebe;
+}
+.Col__Product {
+  border-right: 1px solid black;
+  padding: 10px;
+}
+.Row__Product-body {
+  border: 1px solid black;
+  text-align: center;
+}
